@@ -69,7 +69,7 @@ window.addEventListener("load", () => {
 
         // const id = process.env.id;
 
-        const res = await axios.post("https://doctalk-main-backend.onrender.com/doctor/getLink", {
+        const res = await axios.post("https://doctalk-backend-uq91.onrender.com/doctor/getLink", {
           link: roomLink,
           yourName, // This is the body part
         });
